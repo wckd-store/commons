@@ -10,11 +10,12 @@ import store.wckd.commons.paymentservice.model.RedirectUrls;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PaymentCreateRequestDTO {
+public class PaymentCreateRequestDTO implements Serializable {
 
     @NotNull
     private PaymentGateway paymentGateway;

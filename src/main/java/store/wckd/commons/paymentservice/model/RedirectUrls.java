@@ -6,22 +6,15 @@ import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class RedirectUrls {
+public class RedirectUrls implements Serializable {
 
-    @NotNull
-    @Size(max = 600)
-    private String success = "";
+    private String paymentUrl;
 
-    @NotNull
-    @Size(max = 600)
-    private String pending = "";
-
-    @NotNull
-    @Size(max = 600)
-    private String failure = "";
+    private String sandboxPaymentUrl;
 
 }

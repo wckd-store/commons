@@ -1,6 +1,8 @@
 package store.wckd.commons.paymentservice.enumeration;
 
-public enum PaymentGateway {
+import java.io.Serializable;
+
+public enum PaymentGateway implements Serializable {
 
     MERCADO_PAGO,
     PAY_PAL,

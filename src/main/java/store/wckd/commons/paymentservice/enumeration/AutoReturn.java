@@ -1,6 +1,8 @@
 package store.wckd.commons.paymentservice.enumeration;
 
-public enum AutoReturn {
+import java.io.Serializable;
+
+public enum AutoReturn implements Serializable {
 
     APPROVED,
     ALL
