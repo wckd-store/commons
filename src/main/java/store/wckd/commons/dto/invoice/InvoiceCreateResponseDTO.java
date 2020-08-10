@@ -1,4 +1,4 @@
-package store.wckd.commons.paymentservice.dto.invoice.create;
+package store.wckd.commons.dto.invoice;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

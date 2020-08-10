@@ -1,4 +1,4 @@
-package store.wckd.commons.paymentservice.model;
+package store.wckd.commons.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

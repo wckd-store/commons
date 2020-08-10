@@ -1,4 +1,4 @@
-package store.wckd.commons.paymentservice.enumeration;
+package store.wckd.commons.enumeration;
 
 import java.io.Serializable;
 
