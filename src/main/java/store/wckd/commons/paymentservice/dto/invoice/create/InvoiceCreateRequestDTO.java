@@ -1,4 +1,4 @@
-package store.wckd.commons.paymentservice.dto;
+package store.wckd.commons.paymentservice.dto.invoice.create;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,7 +17,7 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PaymentCreateResponseDTO implements Serializable {
+public class InvoiceCreateRequestDTO implements Serializable {
 
     @NotNull
     private PaymentGateway paymentGateway;
